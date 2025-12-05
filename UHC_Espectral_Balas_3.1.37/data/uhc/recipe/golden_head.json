@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GPG",
+    "GGG"
+  ],
+  "key": {
+    "G": [
+      "minecraft:gold_ingot"
+    ],
+    "P": [
+      "minecraft:skeleton_skull",
+      "minecraft:player_head",
+      "minecraft:wither_skeleton_skull",
+      "minecraft:zombie_head",
+      "minecraft:creeper_head"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple",
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 200
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 1,
+                "duration": 2400
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Cabeza Dorada",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Agrega absorción y regenera cuatro corazones.",
+          "color": "blue"
+        }
+      ],
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

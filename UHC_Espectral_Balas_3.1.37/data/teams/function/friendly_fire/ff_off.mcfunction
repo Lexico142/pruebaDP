@@ -1,0 +1,18 @@
+team modify aqua friendlyFire false
+team modify black friendlyFire false
+team modify blue friendlyFire false
+team modify dark_aqua friendlyFire false
+team modify dark_blue friendlyFire false
+team modify dark_gray friendlyFire false
+team modify dark_green friendlyFire false
+team modify dark_purple friendlyFire false
+team modify dark_red friendlyFire false
+team modify gold friendlyFire false
+team modify gray friendlyFire false
+team modify green friendlyFire false
+team modify light_purple friendlyFire false
+team modify red friendlyFire false
+team modify white friendlyFire false
+team modify yellow friendlyFire false
+
+scoreboard players set friendly_fire config 0

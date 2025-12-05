@@ -1,0 +1,16 @@
+function teams:random/colors/aqua
+function teams:random/colors/red
+function teams:random/colors/green
+function teams:random/colors/yellow
+function teams:random/colors/light_purple
+function teams:random/colors/blue
+function teams:random/colors/gold
+function teams:random/colors/dark_gray
+function teams:random/colors/dark_purple
+function teams:random/colors/dark_aqua
+function teams:random/colors/dark_green
+function teams:random/colors/dark_red
+function teams:random/colors/gray
+function teams:random/colors/dark_blue
+function teams:random/colors/black
+function teams:random/colors/white

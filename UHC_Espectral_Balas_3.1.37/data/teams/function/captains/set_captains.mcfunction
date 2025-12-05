@@ -1,0 +1,6 @@
+execute if score captains config matches 2.. unless entity @p[team=red] run team join red @r[team=]
+execute if score captains config matches 2.. unless entity @p[team=blue] run team join blue @r[team=]
+execute if score captains config matches 3.. unless entity @p[team=green] run team join green @r[team=]
+execute if score captains config matches 4.. unless entity @p[team=yellow] run team join yellow @r[team=]
+execute if score captains config matches 5.. unless entity @p[team=light_purple] run team join light_purple @r[team=]
+execute if score captains config matches 6.. unless entity @p[team=blue] run team join blue @r[team=]

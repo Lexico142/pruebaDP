@@ -1,0 +1,21 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "category": "misc",
+    "key":{
+        "G": "minecraft:dried_ghast",
+        "W": "minecraft:water_bucket",
+        "S": [
+            "minecraft:powder_snow_bucket",
+            "minecraft:snow_block"
+        ]
+    },
+    "pattern":[
+        " S ",
+        "SGS",
+        " W "
+    ],
+    "result":{
+        "id":"minecraft:happy_ghast_spawn_egg",
+        "count":1
+    }
+}

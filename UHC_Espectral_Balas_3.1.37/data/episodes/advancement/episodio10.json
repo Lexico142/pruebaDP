@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Episodio 10",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Todos los jugadores deben estar en 0 0!",
+            "color": "black",
+            "bold": false
+        },
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "episodes:episodio9"
+}

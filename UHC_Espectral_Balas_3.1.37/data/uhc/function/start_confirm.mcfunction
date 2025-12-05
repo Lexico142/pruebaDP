@@ -1,0 +1,1 @@
+tellraw @s [{text:""},{text:"[",color:gray},{text:"UHC",color:gold,bold:true},{text:"] ➤ ",color:gray},{text:"Clica este mensaje para iniciar el UHC",bold:true,color:red,"click_event":{action:"run_command",command:"/function uhc:start"}}]

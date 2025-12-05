@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Episodio 15",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "15": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "episodes:episodio14"
+}

@@ -1,0 +1,19 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "category": "misc",
+    "key":{
+        "G": "minecraft:gold_nugget",
+        "P": "minecraft:potion",
+        "W": "minecraft:nether_wart",
+        "B": "minecraft:blaze_powder"
+    },
+    "pattern":[
+        "GBG",
+        "PPP",
+        "GWG"
+    ],
+    "result":{
+        "id":"minecraft:dragon_breath",
+        "count":3
+    }
+}
