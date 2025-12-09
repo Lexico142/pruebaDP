@@ -1,0 +1,753 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": { "min": 2, "max": 4 },
+                "minecraft:unbreaking": { "min": 2, "max": 3 }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": { "min": 2, "max": 4 },
+                "minecraft:unbreaking": { "min": 2, "max": 3 }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": { "min": 0, "max": 4 },
+                "minecraft:efficiency": { "min": 2, "max": 4 }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.3 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": { "min": 2, "max": 4 },
+                "minecraft:flame": { "min": 0, "max": 1 }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:quick_charge": { "min": 0, "max": 2 },
+                "minecraft:piercing": { "min": 1, "max": 3 }
+              }
+            }
+          ],
+          "conditions": [
+            { "condition": "minecraft:random_chance", "chance": 0.5 }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": { "min": 1, "max": 2 } }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": 3 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:riptide": { "min": 1, "max": 3 } }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": { "min": 1, "max": 2 } }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": 3 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": { "min": 1, "max": 2 } }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": 3 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 81,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": { "min": 1, "max": 2 } }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": 3 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Aletas", "color": "aqua", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:depth_strider": 5,
+                "minecraft:protection": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Hay no fall?", "color": "gold", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 10,
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [ { "function": "minecraft:set_count", "count": 2 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 8, "max": 32 } } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lava_bucket",
+          "functions": [ { "function": "minecraft:set_count", "count": {"min": 0, "max": 2} } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket",
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 3} } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 10, "max": 20 } } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.2 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "uhc:kits/mace_pack",
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "uhc:kits/elytras_pack",
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": { "min": 2, "max": 4 }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:anvil"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [ { "function": "minecraft:set_count", "count": 3 } ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.2 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:long_strength" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.5 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:long_swiftness" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.5 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:long_fire_resistance" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.5 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:poison" },
+            { "function": "minecraft:set_count", "count": 1 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.2 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:healing" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.2 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:strong_healing" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.5 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:strong_healing" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.125 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            { "function": "minecraft:set_potion", "id": "minecraft:strong_healing" },
+            { "function": "minecraft:set_count", "count": 3 }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.03125 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Pirómano", "color": "red", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 10
+              }
+            }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "EL MAZO", "color": "dark_red", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:wind_burst": 5,
+                "minecraft:density": 4
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02  
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "palitroque", "color": "gold", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "bum bum bum bum", "color": "dark_red", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:quick_charge": 5,
+                "minecraft:multishot": 1,
+                "piercing": 4
+              }
+            }
+          ],
+          "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.02 } ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobbled_deepslate",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherrack",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo_planks",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 12 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:waxed_chiseled_copper",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sandstone",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_concrete",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_planks",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz_block",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_planks",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:scaffolding",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:infested_chiseled_stone_bricks",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_planks",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_concrete",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": 64 } ]
+        }
+      ]
+    }
+  ]
+}

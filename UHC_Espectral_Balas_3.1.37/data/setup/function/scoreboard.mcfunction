@@ -6,6 +6,7 @@
 scoreboard objectives add death deathCount
 
 
+
 ## Guarda las coordenadas de los jugadores cuando mueren (Scen Coords Muerte).
 scoreboard objectives add posX dummy
 scoreboard objectives add posY dummy
@@ -66,3 +67,6 @@ scoreboard players display name info_episodio info {text:"🏹 Episodio:",color:
 scoreboard players display name info_worldborder info {text:"⛏ Worldborder:",color:light_purple}
 scoreboard players display name info_vivos info {text:"🗡 Jugadores vivos:",color:gold}
 scoreboard players display name info_muertos info [{text:"☠",color:gray},{text:" ",bold:true},{text:"Espectadores:"}]
+
+
+scoreboard objectives add rng dummy

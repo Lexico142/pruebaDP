@@ -22,3 +22,6 @@ execute if score kit config matches 12 run function uhc:kits/uhcop
 execute if score kit config matches 13 run function uhc:kits/uhcpots
 execute if score kit config matches 14 run function uhc:kits/bow
 execute if score kit config matches 15 run function uhc:kits/axe
+execute if score kit config matches 200 as @a[team=!espectador] run function uhc:kits/custom_random/distribute
+execute if score kit config matches 201 as @a[team=!espectador] run loot give @s loot uhc:kits/super_random
+execute if score kit config matches 201 as @a[team=!espectador] run tellraw @s ["",{"text":"[UHC] ","color":"gold"},{"text":"¡Has recibido un Kit Super Random!","color":"light_purple"}]
